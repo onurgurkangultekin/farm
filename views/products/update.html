@@ -1,0 +1,12 @@
+{{extend "layout.html"}}
+<h1>Update</h1>
+{{if is_valid==True:}}
+{{=form}}
+{{pass}}
+{{if is_valid==False:}}
+<p>Not Authorized</p>
+{{pass}}
+<br/>
+<hr/>
+
+<a href="view">View</a> | <a href="../profile/save">Save</a>
